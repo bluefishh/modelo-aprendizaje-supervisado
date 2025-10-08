@@ -1,4 +1,3 @@
-
 # Modelo supervisado para predecir estaciones terminales en Transmilenio
 
 import pandas as pd
@@ -8,7 +7,6 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, classification_report
 
 # Se carga el archivo CSV con los datos de las estaciones
 datos = pd.read_csv("Estaciones_Troncales_de_TRANSMILENIO.csv")
